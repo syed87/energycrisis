@@ -30,10 +30,12 @@
   padding-top: 80px;
 }
 
-.gne {
-  padding-top: 100px;
-}
+@media (min-width: 780px) {
+  .simpliciy {
+    padding-top: 150px;
+  }
 
-.simpliciy {
-  padding-top: 150px;
+  .gne {
+    padding-top: 100px;
+  }
 }
